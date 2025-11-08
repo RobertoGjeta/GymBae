@@ -11,7 +11,7 @@ function UserInformation(){
             <input className="text-black bg-white" type="number" id="height" required />
          </div>
           <div>
-            <label htmlFor="weight">Enter your height</label>
+            <label htmlFor="weight">Enter your weight</label>
             <input className="text-black bg-white" type="number" id="weight" required />
          </div>
           <div>
