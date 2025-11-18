@@ -1,8 +1,14 @@
-/* @import "tailwindcss";  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* 
-body{
-    margin: 0;
-    background: #f1f1f1;
+@layer base{
+    li{
+        @apply p-4
+    }
 
-} */
+    button{
+        @apply text-white border bg-rose-600 border-rose-600
+        hover:bg-transparent hover:text-rose-600 rounded-md
+    }
+}
